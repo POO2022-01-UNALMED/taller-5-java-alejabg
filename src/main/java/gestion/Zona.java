@@ -20,8 +20,8 @@ public class Zona{
         animales.add(animal);
     }
 
-    public int cantidadAnimales(){
-		return animales.size();
+    public static int cantidadAnimales(){
+		return Zona.animales.size();
 	}
 
     public String getNombre(){

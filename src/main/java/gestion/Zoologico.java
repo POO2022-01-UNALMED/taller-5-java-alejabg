@@ -18,10 +18,10 @@ public class Zoologico{
         zonas.add(zona);
     }
 
-    public int cantidadTotalAnimales(){
+    public static int cantidadTotalAnimales(){
 		int cont = 0;
-		for (int i = 0; i < zonas.size(); i++){
-			cont += zonas.get(i).cantidadAnimales();
+		for (int i = 0; i < Zoologico.zonas.size(); i++){
+			cont += Zoologico.zonas.get(i).cantidadAnimales();
 		}
 		return cont;
 	}
