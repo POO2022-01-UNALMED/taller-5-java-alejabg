@@ -15,7 +15,7 @@ public class Ave extends Animal{
         listado.add(this);
     }
    
-    public Ave(){};
+    public Ave(){listado.add(this);};
 
     public String movimiento(){
         return "volar";
